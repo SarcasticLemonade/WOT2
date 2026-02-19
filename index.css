@@ -1,100 +1,9 @@
-@font-face {
-	font-family: 'Antinoou';
-	src: url('assets/fonts/Antinoou.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Junicode';
-	src: url('assets/fonts/Junicode-Ansund-Regular.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Ponomar';
-	src: url('assets/fonts/Ponomar-Regular.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'SBL Hebrew';
-	src: url('assets/fonts/SBL_Hbrw.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Symbola';
-	src: url('assets/fonts/Symbola-13.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'Unifraktur';
-	src: url('assets/fonts/UnifrakturMaguntia.ttf') format('truetype');
-}
-
-*, *::before, *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html, body {
-	min-height: 100%;
-	width: 100%;
-}
-
-body {
-	background-color: #6ab4e8;
-	background-image:
-		radial-gradient(ellipse at 20% 10%, rgba(255,255,255,0.55) 0%, transparent 50%),
-		radial-gradient(ellipse at 80% 5%, rgba(255,255,255,0.35) 0%, transparent 40%),
-		radial-gradient(ellipse at 50% 100%, #2a7fc1 0%, transparent 60%),
-		linear-gradient(180deg, #a8d8f0 0%, #6ab4e8 40%, #3a8fc8 100%);
-	min-height: 100vh;
-	font-family: 'Gentium Book Plus', serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 40px 20px 60px;
-}
-
-body::before, body::after {
-	content: '';
-	position: fixed;
-	border-radius: 50%;
-	background: rgba(255,255,255,0.22);
-	filter: blur(40px);
-	pointer-events: none;
-	z-index: 0;
-}
-body::before {
-	width: 500px;
-	height: 200px;
-	top: 5%;
-	left: -80px;
-}
-body::after {
-	width: 400px;
-	height: 160px;
-	top: 12%;
-	right: -60px;
-}
-
 .container {
-	position: relative;
-	z-index: 1;
-	background: linear-gradient(
-		145deg,
-		rgba(255,255,255,0.45) 0%,
-		rgba(255,255,255,0.2) 100%
-	);
-	backdrop-filter: blur(18px) saturate(1.4);
-	-webkit-backdrop-filter: blur(18px) saturate(1.4);
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 28px;
-	box-shadow:
-		0 8px 32px rgba(0,60,140,0.18),
-		0 2px 8px rgba(0,60,140,0.1),
-		inset 0 1px 0 rgba(255,255,255,0.7);
-	padding: 32px 28px;
 	max-width: 780px;
-	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+	justify-content: center;
 }
 
 .grid {
@@ -104,71 +13,30 @@ body::after {
 	justify-content: center;
 }
 
-button {
-	position: relative;
-	border: none;
-	border-radius: 999px;
-	padding: 12px 22px;
-	cursor: pointer;
-	font-size: 1.15rem;
-	line-height: 1;
-	transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
-
-	background: linear-gradient(
-		180deg,
-		#ffe87a 0%,
-		#f5c800 48%,
-		#e8b800 49%,
-		#fed83d 100%
-	);
-	box-shadow:
-		0 4px 12px rgba(0,0,0,0.22),
-		0 1px 3px rgba(0,0,0,0.15),
-		inset 0 1px 0 rgba(255,255,255,0.75),
-		inset 0 -1px 0 rgba(0,0,0,0.1);
-}
-
-button::before {
-	content: '';
-	position: absolute;
-	inset: 0;
-	border-radius: 999px;
-	background: linear-gradient(
-		180deg,
-		rgba(255,255,255,0.55) 0%,
-		rgba(255,255,255,0.15) 45%,
-		transparent 46%
-	);
-	pointer-events: none;
-}
-
-button:hover {
-	transform: translateY(-2px) scale(1.05);
-	box-shadow:
-		0 8px 20px rgba(0,0,0,0.25),
-		0 2px 6px rgba(0,0,0,0.15),
-		inset 0 1px 0 rgba(255,255,255,0.8),
-		inset 0 -1px 0 rgba(0,0,0,0.1);
-	filter: brightness(1.06);
-}
-
-button:active {
-	transform: translateY(1px) scale(0.98);
-	box-shadow:
-		0 2px 6px rgba(0,0,0,0.2),
-		inset 0 1px 0 rgba(255,255,255,0.6);
-}
-
-button a {
-	color: #1a6b00;
-	text-decoration: none;
-	background: none;
-	user-select: none;
-	display: block;
-	position: relative;
-	z-index: 1;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.4);
-}
+.grid button:nth-child(1)  { animation: floatIn 0.4s 0.20s ease both; }
+.grid button:nth-child(2)  { animation: floatIn 0.4s 0.23s ease both; }
+.grid button:nth-child(3)  { animation: floatIn 0.4s 0.26s ease both; }
+.grid button:nth-child(4)  { animation: floatIn 0.4s 0.29s ease both; }
+.grid button:nth-child(5)  { animation: floatIn 0.4s 0.32s ease both; }
+.grid button:nth-child(6)  { animation: floatIn 0.4s 0.35s ease both; }
+.grid button:nth-child(7)  { animation: floatIn 0.4s 0.38s ease both; }
+.grid button:nth-child(8)  { animation: floatIn 0.4s 0.41s ease both; }
+.grid button:nth-child(9)  { animation: floatIn 0.4s 0.44s ease both; }
+.grid button:nth-child(10) { animation: floatIn 0.4s 0.47s ease both; }
+.grid button:nth-child(11) { animation: floatIn 0.4s 0.50s ease both; }
+.grid button:nth-child(12) { animation: floatIn 0.4s 0.53s ease both; }
+.grid button:nth-child(13) { animation: floatIn 0.4s 0.56s ease both; }
+.grid button:nth-child(14) { animation: floatIn 0.4s 0.59s ease both; }
+.grid button:nth-child(15) { animation: floatIn 0.4s 0.62s ease both; }
+.grid button:nth-child(16) { animation: floatIn 0.4s 0.65s ease both; }
+.grid button:nth-child(17) { animation: floatIn 0.4s 0.68s ease both; }
+.grid button:nth-child(18) { animation: floatIn 0.4s 0.71s ease both; }
+.grid button:nth-child(19) { animation: floatIn 0.4s 0.74s ease both; }
+.grid button:nth-child(20) { animation: floatIn 0.4s 0.77s ease both; }
+.grid button:nth-child(21) { animation: floatIn 0.4s 0.80s ease both; }
+.grid button:nth-child(22) { animation: floatIn 0.4s 0.83s ease both; }
+.grid button:nth-child(23) { animation: floatIn 0.4s 0.86s ease both; }
+.grid button:nth-child(24) { animation: floatIn 0.4s 0.89s ease both; }
 
 .cun { font-family: 'Noto Sans Cuneiform', sans-serif; }
 .gen { font-family: 'Gentium Book Plus', serif; }
@@ -187,51 +55,3 @@ button a {
 .ara a { position: relative; top: -5px; }
 .cun a { position: relative; top: -2px; }
 .ind a { position: relative; top: 3px; }
-
-@keyframes floatIn {
-	from {
-		opacity: 0;
-		transform: translateY(16px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-header {
-	animation: floatIn 0.6s ease both;
-}
-
-.container {
-	animation: floatIn 0.7s 0.15s ease both;
-}
-
-.grid button {
-	animation: floatIn 0.4s ease both;
-}
-
-.grid button:nth-child(1)  { animation-delay: 0.20s; }
-.grid button:nth-child(2)  { animation-delay: 0.23s; }
-.grid button:nth-child(3)  { animation-delay: 0.26s; }
-.grid button:nth-child(4)  { animation-delay: 0.29s; }
-.grid button:nth-child(5)  { animation-delay: 0.32s; }
-.grid button:nth-child(6)  { animation-delay: 0.35s; }
-.grid button:nth-child(7)  { animation-delay: 0.38s; }
-.grid button:nth-child(8)  { animation-delay: 0.41s; }
-.grid button:nth-child(9)  { animation-delay: 0.44s; }
-.grid button:nth-child(10) { animation-delay: 0.47s; }
-.grid button:nth-child(11) { animation-delay: 0.50s; }
-.grid button:nth-child(12) { animation-delay: 0.53s; }
-.grid button:nth-child(13) { animation-delay: 0.56s; }
-.grid button:nth-child(14) { animation-delay: 0.59s; }
-.grid button:nth-child(15) { animation-delay: 0.62s; }
-.grid button:nth-child(16) { animation-delay: 0.65s; }
-.grid button:nth-child(17) { animation-delay: 0.68s; }
-.grid button:nth-child(18) { animation-delay: 0.71s; }
-.grid button:nth-child(19) { animation-delay: 0.74s; }
-.grid button:nth-child(20) { animation-delay: 0.77s; }
-.grid button:nth-child(21) { animation-delay: 0.80s; }
-.grid button:nth-child(22) { animation-delay: 0.83s; }
-.grid button:nth-child(23) { animation-delay: 0.86s; }
-.grid button:nth-child(24) { animation-delay: 0.89s; }

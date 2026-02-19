@@ -1,0 +1,27 @@
+.grid {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.grid button:nth-child(1)  { animation: floatIn 0.4s 0.28s ease both; }
+.grid button:nth-child(2)  { animation: floatIn 0.4s 0.31s ease both; }
+.grid button:nth-child(3)  { animation: floatIn 0.4s 0.34s ease both; }
+.grid button:nth-child(4)  { animation: floatIn 0.4s 0.37s ease both; }
+.grid button:nth-child(5)  { animation: floatIn 0.4s 0.40s ease both; }
+.grid button:nth-child(6)  { animation: floatIn 0.4s 0.43s ease both; }
+.grid button:nth-child(7)  { animation: floatIn 0.4s 0.46s ease both; }
+.grid button:nth-child(8)  { animation: floatIn 0.4s 0.49s ease both; }
+.grid button:nth-child(9)  { animation: floatIn 0.4s 0.52s ease both; }
+.grid button:nth-child(10) { animation: floatIn 0.4s 0.55s ease both; }
+.grid button:nth-child(11) { animation: floatIn 0.4s 0.58s ease both; }
+.grid button:nth-child(12) { animation: floatIn 0.4s 0.61s ease both; }
+.grid button:nth-child(13) { animation: floatIn 0.4s 0.64s ease both; }
+.grid button:nth-child(14) { animation: floatIn 0.4s 0.67s ease both; }
+.grid button:nth-child(15) { animation: floatIn 0.4s 0.70s ease both; }
+.grid button:nth-child(16) { animation: floatIn 0.4s 0.73s ease both; }
+.grid button:nth-child(17) { animation: floatIn 0.4s 0.76s ease both; }
+.grid button:nth-child(18) { animation: floatIn 0.4s 0.79s ease both; }
+.grid button:nth-child(19) { animation: floatIn 0.4s 0.82s ease both; }
+.grid button:nth-child(20) { animation: floatIn 0.4s 0.85s ease both; }
