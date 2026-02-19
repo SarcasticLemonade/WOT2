@@ -1,0 +1,56 @@
+* {
+	background-color: skyblue;
+	font-family: 'Noto Serif Hebrew', 'Gentium Book Plus', 'Noto Color Emoji', Times, serif;
+}
+
+.word, .word * {
+	background-color: #fed83d;
+	text-align: right;
+}
+
+.word {
+	margin-top: 30px;
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	max-width: fit-content;
+	border-radius: 20px;
+       	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+	color: black;
+}
+
+button {
+	margin: 10px;
+	padding: 20px;
+	border: 0;
+	border-radius: 1000px;
+	background-color: #fed83d;
+	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+	font-size: 1.2pc;
+	line-height: 1pc;
+}
+
+button:hover {
+	background-color: #ffe25d;
+	box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.35);
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+button a {
+	color: forestgreen;
+	text-decoration: none;
+	background-color: inherit;
+	user-select: none;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+sup {
+	font-size: 0.6pc;
+}

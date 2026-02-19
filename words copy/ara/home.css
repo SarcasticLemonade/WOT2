@@ -1,0 +1,34 @@
+* {
+	background-color: skyblue;
+	font-family: 'Amiri Quran', 'Noto Color Emoji';
+	line-height: 1pc;
+}
+
+div {
+	text-align: center;
+}
+
+button {
+	margin: 10px;
+	padding: 20px;
+	border: 0;
+	border-radius: 1000px;
+	background-color: #fed83d;
+	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+	font-size: 1.2pc;
+}
+
+button:hover {
+	background-color: #ffe25d;
+	box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.35);
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+button a {
+	color: forestgreen;
+	text-decoration: none;
+	background-color: inherit;
+	user-select: none;
+}
