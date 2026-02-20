@@ -84,5 +84,10 @@ em {
 }
 
 sup {
+	display: inline-block;
+	width: 3.5em;
+	text-align: right;
+	margin-right: 0.4em;
 	font-size: 0.6em;
+	vertical-align: super;
 }

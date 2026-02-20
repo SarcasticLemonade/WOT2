@@ -17,7 +17,7 @@ body {
 		radial-gradient(ellipse at 50% 100%, #2a7fc1 0%, transparent 60%),
 		linear-gradient(180deg, #a8d8f0 0%, #6ab4e8 40%, #3a8fc8 100%);
 	min-height: 100vh;
-	font-family: 'Gentium Book Plus', 'Noto Color Emoji', serif;
+	font-family: 'Gentium Book Plus', 'Noto Color Emoji', 'Symbola', serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
