@@ -40,7 +40,7 @@
 
 .cun { font-family: 'Noto Sans Cuneiform', sans-serif; }
 .gen { font-family: 'Gentium Book Plus', serif; }
-.ara { font-family: 'Amiri Quran', serif; }
+.ara { font-family: 'Amiri', serif; }
 .han { font-family: 'LXGW WenKai TC', serif; }
 .cop { font-family: 'Antinoou', serif; }
 .deu { font-family: 'Unifraktur', cursive; }
@@ -52,6 +52,4 @@
 .rus { font-family: 'Symbola', serif; }
 .ind { font-family: 'Noto Serif Devanagari', serif; }
 
-.ara a { position: relative; top: -5px; }
-.cun a { position: relative; top: -2px; }
 .ind a { position: relative; top: 3px; }

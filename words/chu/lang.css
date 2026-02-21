@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'Ponomar', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 1em;
+}

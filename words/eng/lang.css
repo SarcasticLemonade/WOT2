@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'IM FELL English', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 0.8em;
+}

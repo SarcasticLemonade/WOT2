@@ -19,4 +19,5 @@ button {
 	width: 3.5em;
 	text-align: right;
 	margin-right: 0.4em;
+	vertical-align: baseline;
 }
