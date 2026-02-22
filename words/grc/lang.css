@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'EB Garamond', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 0.8em;
+}

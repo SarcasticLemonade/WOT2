@@ -1,3 +1,8 @@
 body, button {
 	font-family: 'LXGW WenKai TC', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 1em;
+	vertical-align: baseline;
+}
