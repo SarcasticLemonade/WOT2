@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'Antinoou', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 0.8em;
+}
