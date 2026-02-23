@@ -1,10 +1,25 @@
 body, button, header h1 {
-        font-family: 'Amiri', 'Gentium Book Plus', 'Noto Color Emoji', serif;
+	font-family: 'Amiri', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
 
-header h1 {
-        direction: rtl;
-        unicode-bidi: embed;
-        font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
-        letter-spacing: 0;
+.verse {
+	font-size: 1.3rem;
+	vertical-align: bottom;
+	line-height: 1;
+	float: right;
+	width: auto;
+	text-align: right;
+	margin-right: 0;
+	margin-left: 0.6em;
+	direction: ltr;
+	unicode-bidi: isolate;
+}
+
+p {
+	float: right;
+	text-align: right;
+	direction: rtl;
+	letter-spacing: 0;
+	font-size: 1.3rem;
+	line-height: 1;
 }
