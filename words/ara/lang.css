@@ -5,7 +5,6 @@ body, button, header h1 {
 .verse {
 	font-size: 1.3rem;
 	vertical-align: bottom;
-	line-height: 1;
 	float: right;
 	width: auto;
 	text-align: right;
@@ -22,4 +21,12 @@ p {
 	letter-spacing: 0;
 	font-size: 1.3rem;
 	line-height: 1;
+}
+
+header h1 {
+	float: right;
+	direction: rtl;
+	unicode-bidi: embed;
+	font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+	letter-spacing: 0;
 }
