@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'Noto Serif Devanagari', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	font-size: 0.8em;
+}
