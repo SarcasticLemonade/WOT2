@@ -1,3 +1,28 @@
 body, button {
 	font-family: 'SBL Hebrew', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
+
+.verse {
+	display: inline-block;
+	font-size: 1.3rem;
+	vertical-align: baseline;
+	width: 1.8em;
+	text-align: right;
+	margin-right: 0;
+	margin-left: -1em;
+	direction: ltr;
+	unicode-bidi: isolate;
+}
+
+p {
+	float: right;
+	text-align: right;
+	direction: rtl;
+	letter-spacing: 0;
+	font-size: 1.3rem;
+	line-height: 1;
+}
+
+h1 {
+	text-align: right;
+}
