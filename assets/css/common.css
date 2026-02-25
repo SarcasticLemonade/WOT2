@@ -248,3 +248,7 @@ em {
 	font-size: 1.25pc;
 	line-height: 1.5pc;
 }
+
+button.lat * {
+	height: 20px;
+}
