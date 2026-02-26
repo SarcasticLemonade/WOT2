@@ -162,8 +162,8 @@ header h1 span {
 		rgba(255,255,255,0.45) 0%,
 		rgba(255,255,255,0.2) 100%
 	);
-	backdrop-filter: blur(18px) saturate(1.4);
-	-webkit-backdrop-filter: blur(18px) saturate(1.4);
+	/* backdrop-filter: blur(18px) saturate(1.4);
+	-webkit-backdrop-filter: blur(18px) saturate(1.4); */
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 28px;
 	box-shadow:
