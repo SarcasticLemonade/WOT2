@@ -4,6 +4,8 @@
 	flex-wrap: wrap;
 	gap: 32px;
 	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 .grid {
@@ -54,5 +56,6 @@
 .arm { font-family: 'Noto Serif', serif;}
 .geo { font-family: 'Noto Serif', serif;}
 .fas { font-family: 'Scheherazade', serif; }
+.gez { font-family: 'Noto Serif Ethiopic'; }
 
 .ind a { position: relative; top: 3px; }
