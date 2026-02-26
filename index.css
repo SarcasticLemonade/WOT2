@@ -38,7 +38,7 @@
 .grid button:nth-child(23) { animation: floatIn 0.4s 0.86s ease both; }
 .grid button:nth-child(24) { animation: floatIn 0.4s 0.89s ease both; }
 
-.cun { font-family: 'Noto Sans Cuneiform', sans-serif; }
+.cun { font-family: 'Noto Sans Cuneiform', serif; }
 .gen { font-family: 'Gentium Book Plus', serif; }
 .ara { font-family: 'Amiri', serif; }
 .han { font-family: 'LXGW WenKai TC', serif; }
@@ -51,5 +51,8 @@
 .chu { font-family: 'Ponomar', serif; }
 .rus { font-family: 'Symbola', serif; }
 .ind { font-family: 'Noto Serif Devanagari', serif; }
+.arm { font-family: 'Noto Serif', serif;}
+.geo { font-family: 'Noto Serif', serif;}
+.fas { font-family: 'Scheherazade', serif; }
 
 .ind a { position: relative; top: 3px; }

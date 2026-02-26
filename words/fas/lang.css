@@ -1,15 +1,5 @@
-@font-face {
-	font-family: '910';
-	src: url('../../assets/fonts/Symbola-13.otf') format('opentype');
-	unicode-range: U+229E, U+229F;
-}
-
-body {
-	font-family: '910', 'Gentium Book Plus', 'Noto Color Emoji', serif;
-}
-
-button {
-	font-family: '910', 'Gentium Book Plus', 'Noto Color Emoji', serif;
+body, button {
+	font-family: 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
 
 .verse {

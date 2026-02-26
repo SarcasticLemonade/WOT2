@@ -1,6 +1,5 @@
 body, button {
 	font-family: 'Unifraktur', 'Gentium Book Plus', 'Noto Color Emoji', serif;
-	/* font-feature-settings: "ccmp" on, "cv11" on, "cv12" on, "cv13" on, "cv19" on, "cv15" on, "cv20" on; */
 	font-feature-settings: "cv11" on, "cv12" on, "cv13" on, "cv14" on, "cv15" on, "cv19" on, "hlig" on, "lnum" on, "ss02" on;
 }
 
