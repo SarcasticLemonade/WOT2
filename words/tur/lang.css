@@ -1,3 +1,7 @@
 body, button {
 	font-family: 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
+
+.em {
+	text-transform: lowercase;
+}
