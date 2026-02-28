@@ -45,7 +45,7 @@
 .ara { font-family: 'Amiri', serif; }
 .han { font-family: 'LXGW WenKai TC', serif; }
 .cop { font-family: 'Antinoou', serif; }
-.deu { font-family: 'Unifraktur', cursive; }
+.deu { font-family: 'Unifraktur', cursive; font-feature-settings: "cv11" on, "cv12" on, "cv13" on, "cv14" on, "cv15" on, "cv19" on, "hlig" on, "lnum" on, "ss02" on;}
 .eng { font-family: 'IM Fell English', serif; }
 .heb { font-family: 'SBL Hebrew', serif; }
 .grc { font-family: 'EB Garamond', serif; }
@@ -58,5 +58,6 @@
 .fas { font-family: 'Scheherazade', serif; }
 .gez { font-family: 'Noto Serif Ethiopic'; }
 .pol { font-family: 'Brygada 1918';}
+.bul { font-family: 'Cormorant Infant'; font-weight: 600;}
 
 .ind a { position: relative; top: 3px; }
