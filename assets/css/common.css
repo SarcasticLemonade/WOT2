@@ -26,11 +26,19 @@
 @font-face {
 	font-family: 'Symbola';
 	src: url('/assets/fonts/Symbola-13.otf') format('opentype');
+	unicode-range: 
+		U+0000-1F2FF,
+		U+1F800-1FAFF;
 }
-
 @font-face {
 	font-family: 'Scheherazade';
 	src: url('../fonts/ScheherazadeNew-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Noto Color Emoji';
+	src: url('/assets/fonts/NotoColorEmoji.ttf') format('truetype');
+	unicode-range: U+1F300-1FAFF, U+2600-27BF, U+2300-23FF;
 }
 
 *, *::before, *::after {
@@ -162,8 +170,6 @@ header h1 span {
 		rgba(255,255,255,0.45) 0%,
 		rgba(255,255,255,0.2) 100%
 	);
-	/* backdrop-filter: blur(18px) saturate(1.4);
-	-webkit-backdrop-filter: blur(18px) saturate(1.4); */
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 28px;
 	box-shadow:

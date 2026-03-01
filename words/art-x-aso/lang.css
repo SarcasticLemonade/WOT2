@@ -1,19 +1,9 @@
-@font-face {
-	font-family: '910';
-	src: url('../../assets/fonts/Symbola-13.otf') format('opentype');
-	unicode-range: U+229E, U+229F;
-}
-
 body, button {
-	font-family: '910', 'Gentium Book Plus', 'Noto Color Emoji', serif;
+	font-family: 'Unifraktur', 'Gentium Book Plus', 'Noto Color Emoji', serif;
+	font-feature-settings: "cv11" on, "cv12" on, "cv13" on, "cv14" on, "cv15" on, "cv19" on, "hlig" on, "lnum" on, "ss02" on;
 }
 
-.verse {
-	font-size: 1pc;
-	line-height: 1pc;
-	display: inline-block;
-	width: 3.5em;
-	text-align: right;
-	margin-right: 0.4em;
-	vertical-align: baseline;
+em {
+	font-family: 'IM FELL English', 'Noto Color Emoji', serif;
+	font-style: italic;
 }
