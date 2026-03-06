@@ -24,7 +24,6 @@ p {
 }
 
 header h1 {
-	float: right;
 	direction: rtl;
 	unicode-bidi: embed;
 	font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
