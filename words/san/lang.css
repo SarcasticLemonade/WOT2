@@ -9,3 +9,8 @@ body, button {
 header h1 {
 	letter-spacing: 0;
 }
+
+a {
+	position: relative;
+	top: 3px;
+}

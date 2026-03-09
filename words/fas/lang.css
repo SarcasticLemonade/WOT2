@@ -3,11 +3,30 @@ body, button {
 }
 
 .verse {
-	font-size: 1pc;
-	line-height: 1pc;
-	display: inline-block;
-	width: 3.5em;
+	font-size: 1.3rem;
+	vertical-align: bottom;
+	float: right;
+	width: auto;
 	text-align: right;
-	margin-right: 0.4em;
-	vertical-align: baseline;
+	margin-right: 0;
+	margin-left: 0.6em;
+	direction: ltr;
+	unicode-bidi: isolate;
+}
+
+p {
+	float: right;
+	text-align: right;
+	direction: rtl;
+	letter-spacing: 0;
+	font-size: 1.3rem;
+	line-height: 1;
+}
+
+h1 {
+	text-align: right;
+	direction: rtl;
+	unicode-bidi: embed;
+	font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+	letter-spacing: 0;
 }

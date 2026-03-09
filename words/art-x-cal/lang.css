@@ -1,11 +1,11 @@
+body, button {
+	font-family: 'Cormorant Infant', 'Noto Color Emoji', serif;
+}
+
 * {
 	font-weight: 600;
 }
 
-header h1 {
-	font-weight: 800;
-}
-
-body, button {
-	font-family: 'Cormorant Infant', 'Noto Color Emoji', serif;
+h1 {
+	font-weight: 1000;
 }
