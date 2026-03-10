@@ -56,9 +56,11 @@
 .arm { font-family: 'Noto Serif', serif;}
 .geo { font-family: 'Noto Serif', serif;}
 .fas { font-family: 'Scheherazade', serif; }
-.gez { font-family: 'Noto Serif Ethiopic'; }
-.pol { font-family: 'Brygada 1918';}
-.bul { font-family: 'Cormorant Infant'; font-weight: 600;}
-.tok { font-family: 'linja pona';}
+.gez { font-family: 'Noto Serif Ethiopic', serif; }
+.pol { font-family: 'Brygada 1918', serif;}
+.bul { font-family: 'Cormorant Infant', serif; font-weight: 600;}
+.tok { font-family: 'linja pona', serif;}
+.arm { font-family: 'Noto Serif Armenian', serif;}
+.geo { font-family: 'Noto Serif Georgian', serif;}
 
 .ind a { position: relative; top: 3px; }
