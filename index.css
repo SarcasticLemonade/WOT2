@@ -40,27 +40,25 @@
 .grid button:nth-child(23) { animation: floatIn 0.4s 0.86s ease both; }
 .grid button:nth-child(24) { animation: floatIn 0.4s 0.89s ease both; }
 
-.cun { font-family: 'Noto Sans Cuneiform', serif; }
-.gen { font-family: 'Gentium Book Plus', serif; }
 .ara { font-family: 'Amiri', serif; }
-.han { font-family: 'LXGW WenKai TC', serif; }
+.arm { font-family: 'Noto Serif Armenian', serif;}
+.bul { font-family: 'Cormorant Infant', serif; font-weight: 600;}
+.chu { font-family: 'Ponomar', serif; }
 .cop { font-family: 'Antinoou', serif; }
+.cun { font-family: 'Noto Sans Cuneiform', serif; }
 .deu { font-family: 'Unifraktur', cursive; font-feature-settings: "cv11" on, "cv12" on, "cv13" on, "cv14" on, "cv15" on, "cv19" on, "hlig" on, "lnum" on, "ss02" on;}
 .eng { font-family: 'IM Fell English', serif; }
-.heb { font-family: 'SBL Hebrew', serif; }
-.grc { font-family: 'EB Garamond', serif; }
-.lat { font-family: 'Junicode', serif; }
-.chu { font-family: 'Ponomar', serif; }
-.rus { font-family: 'PT Serif', serif; }
-.ind { font-family: 'Noto Serif Devanagari', serif; }
-.arm { font-family: 'Noto Serif', serif;}
-.geo { font-family: 'Noto Serif', serif;}
 .fas { font-family: 'Scheherazade', serif; }
-.gez { font-family: 'Abyssinica SIL', serif; }
-.pol { font-family: 'Brygada 1918', serif;}
-.bul { font-family: 'Cormorant Infant', serif; font-weight: 600;}
-.tok { font-family: 'linja pona', serif;}
-.arm { font-family: 'Noto Serif Armenian', serif;}
+.gen { font-family: 'Gentium Book Plus', serif; }
 .geo { font-family: 'Noto Serif Georgian', serif;}
+.gez { font-family: 'Abyssinica SIL', serif; }
+.grc { font-family: 'EB Garamond', serif; }
+.han { font-family: 'LXGW WenKai TC', serif; }
+.heb { font-family: 'SBL Hebrew', serif; }
+.ind { font-family: 'Siddhanta', serif; }
+.lat { font-family: 'Junicode', serif; }
+.pol { font-family: 'Brygada 1918', serif;}
+.rus { font-family: 'PT Serif', serif; }
+.tok { font-family: 'linja pona', serif;}
 
-.ind a { position: relative; top: 3px; }
+.ind a { position: relative; top: 1px; }

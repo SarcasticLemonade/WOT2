@@ -46,6 +46,11 @@
 	src: url('/assets/fonts/linja-pona-4.9.otf');
 }
 
+@font-face {
+	font-family: 'Siddhanta';
+	src: url('/assets/fonts/siddhanta.ttf');
+}
+
 *, *::before, *::after {
 	box-sizing: border-box;
 	margin: 0;

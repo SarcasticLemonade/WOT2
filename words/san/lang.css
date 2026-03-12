@@ -1,5 +1,5 @@
 body, button {
-	font-family: 'Noto Serif Devanagari', 'Noto Color Emoji', serif;
+	font-family: 'Siddhanta', 'Noto Color Emoji', serif;
 }
 
 .verse {
@@ -8,9 +8,4 @@ body, button {
 
 header h1 {
 	letter-spacing: 0;
-}
-
-a {
-	position: relative;
-	top: 3px;
 }
