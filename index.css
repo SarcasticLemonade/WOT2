@@ -50,7 +50,7 @@
 .eng { font-family: 'IM Fell English', serif; }
 .fas { font-family: 'Scheherazade', serif; }
 .gen { font-family: 'Gentium Book Plus', serif; }
-.geo { font-family: 'Noto Serif Georgian', serif;}
+.geo { font-family: 'bpg', serif;}
 .gez { font-family: 'Abyssinica SIL', serif; }
 .grc { font-family: 'EB Garamond', serif; }
 .han { font-family: 'LXGW WenKai TC', serif; }
@@ -58,7 +58,7 @@
 .ind { font-family: 'Siddhanta', serif; }
 .lat { font-family: 'Junicode', serif; }
 .pol { font-family: 'Brygada 1918', serif;}
-.rus { font-family: 'PT Serif', serif; }
+.rus { font-family: 'Old Standard TT', serif; }
 .tok { font-family: 'linja pona', serif;}
 
 .ind a { position: relative; top: 1px; }
