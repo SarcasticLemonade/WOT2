@@ -1,9 +1,3 @@
 body, button {
-	font-family: 'Unifraktur', 'Gentium Book Plus', 'Noto Color Emoji', serif;
-	font-feature-settings: "cv11" on, "cv12" on, "cv13" on, "cv14" on, "cv15" on, "cv19" on, "hlig" on, "lnum" on, "ss02" on;
-}
-
-em {
-	font-family: 'IM FELL English', 'Noto Color Emoji', serif;
-	font-style: italic;
+	font-family: 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
