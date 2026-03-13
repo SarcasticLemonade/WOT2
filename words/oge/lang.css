@@ -1,3 +1,7 @@
 body, button {
-	font-family: 'Noto Serif Georgian', 'Noto Color Emoji', serif;
+	font-family: 'bpg', 'Noto Color Emoji', serif;
+}
+
+h1 {
+	font-family: 'bpg';
 }
