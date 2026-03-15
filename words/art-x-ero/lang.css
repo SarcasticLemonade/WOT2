@@ -1,19 +1,7 @@
-@font-face {
-	font-family: '910';
-	src: url('../../assets/fonts/Symbola-13.otf') format('opentype');
-	unicode-range: U+229E, U+229F;
-}
-
 body, button {
-	font-family: '910', 'Gentium Book Plus', 'Noto Color Emoji', serif;
+	font-family: 'Antinoou', 'Gentium Book Plus', 'Noto Color Emoji', serif;
 }
 
 .verse {
-	font-size: 1pc;
-	line-height: 1pc;
-	display: inline-block;
-	width: 3.5em;
-	text-align: right;
-	margin-right: 0.4em;
-	vertical-align: baseline;
+	font-size: 0.8em;
 }
