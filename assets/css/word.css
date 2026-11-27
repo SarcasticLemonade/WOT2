@@ -81,6 +81,8 @@ body {
 em {
 	font-style: normal;
 	font-variant: small-caps;
+	font-size: larger;
+	line-height: 1pc;
 }
 
 .verse {
